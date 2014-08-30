@@ -10,7 +10,7 @@
 		"default": {
 			"outputSourceFiles" : true
 		},
-		"applicationName": "Demo",
+		"applicationName": "Ramda",
 		"disqus": "",
 		"googleAnalytics": "",
 		"openGraph": {

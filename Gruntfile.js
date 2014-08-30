@@ -47,7 +47,7 @@ module.exports = function (grunt) {
             },
 
             jsdoc: {
-                files: ['**/*.tmpl', '*.js'],
+                files: ['**/*.tmpl', '*.js', '../ramda/**/*.js'],
                 tasks: ['jsdoc']
             }
         },
@@ -59,21 +59,6 @@ module.exports = function (grunt) {
         },
 
         jsdoc: {
-            demo: {
-                src: [
-                    DEMO_SAMPLE_PATH + '/**/*.js',
-                    
-                    // You can add README.md file for index page at documentations.
-                    'README.md'
-                ],
-                options: {
-                    verbose: true,
-                    destination: DEMO_PATH,
-                    configure: 'conf.json',
-                    template: './',
-                    'private': false
-                }
-            },
             ramda: {
                 src: ['../ramda/ramda.js', '../ramda/README.md'],
                 options: {
@@ -127,7 +112,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('demo', 'Create documentations for demo', [
         'less',
-        'clean:demo',
-        'jsdoc:demo'
+        'clean',
+        'jsdoc'
     ]);
 };
