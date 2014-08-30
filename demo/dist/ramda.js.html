@@ -80,6 +80,8 @@
             
                 <li data-name="R.ap"><a href="R.html#ap">ap</a></li>
             
+                <li data-name="R.append"><a href="R.html#append">append</a></li>
+            
                 <li data-name="R.arity"><a href="R.html#arity">arity</a></li>
             
                 <li data-name="R.binary"><a href="R.html#binary">binary</a></li>
@@ -134,7 +136,7 @@
             
                 <li data-name="R.filter"><a href="R.html#filter">filter</a></li>
             
-                <li data-name="R.filterIdx"><a href="R.html#filterIdx">filterIdx</a></li>
+                <li data-name="R.filter.idx"><a href="R.html#filter.idx">filter.idx</a></li>
             
                 <li data-name="R.find"><a href="R.html#find">find</a></li>
             
@@ -154,6 +156,8 @@
             
                 <li data-name="R.forEach"><a href="R.html#forEach">forEach</a></li>
             
+                <li data-name="R.forEach.idx"><a href="R.html#forEach.idx">forEach.idx</a></li>
+            
                 <li data-name="R.fork"><a href="R.html#fork">fork</a></li>
             
                 <li data-name="R.fromPairs"><a href="R.html#fromPairs">fromPairs</a></li>
@@ -172,7 +176,11 @@
             
                 <li data-name="R.gte"><a href="R.html#gte">gte</a></li>
             
+                <li data-name="R.head"><a href="R.html#head">head</a></li>
+            
                 <li data-name="R.I"><a href="R.html#I">I</a></li>
+            
+                <li data-name="R.identity"><a href="R.html#identity">identity</a></li>
             
                 <li data-name="R.indexOf"><a href="R.html#indexOf">indexOf</a></li>
             
@@ -214,7 +222,11 @@
             
                 <li data-name="R.map"><a href="R.html#map">map</a></li>
             
+                <li data-name="R.map.idx"><a href="R.html#map.idx">map.idx</a></li>
+            
                 <li data-name="R.mapObj"><a href="R.html#mapObj">mapObj</a></li>
+            
+                <li data-name="R.mapObj.idx"><a href="R.html#mapObj.idx">mapObj.idx</a></li>
             
                 <li data-name="R.match"><a href="R.html#match">match</a></li>
             
@@ -266,9 +278,13 @@
             
                 <li data-name="R.pluck"><a href="R.html#pluck">pluck</a></li>
             
+                <li data-name="R.prepend"><a href="R.html#prepend">prepend</a></li>
+            
                 <li data-name="R.product"><a href="R.html#product">product</a></li>
             
                 <li data-name="R.project"><a href="R.html#project">project</a></li>
+            
+                <li data-name="R.prop"><a href="R.html#prop">prop</a></li>
             
                 <li data-name="R.propEq"><a href="R.html#propEq">propEq</a></li>
             
@@ -280,7 +296,17 @@
             
                 <li data-name="R.range"><a href="R.html#range">range</a></li>
             
+                <li data-name="R.reduce"><a href="R.html#reduce">reduce</a></li>
+            
+                <li data-name="R.reduce.idx"><a href="R.html#reduce.idx">reduce.idx</a></li>
+            
+                <li data-name="R.reduceRight"><a href="R.html#reduceRight">reduceRight</a></li>
+            
+                <li data-name="R.reduceRight.idx"><a href="R.html#reduceRight.idx">reduceRight.idx</a></li>
+            
                 <li data-name="R.reject"><a href="R.html#reject">reject</a></li>
+            
+                <li data-name="R.reject.idx"><a href="R.html#reject.idx">reject.idx</a></li>
             
                 <li data-name="R.remove"><a href="R.html#remove">remove</a></li>
             
@@ -289,6 +315,8 @@
                 <li data-name="R.reverse"><a href="R.html#reverse">reverse</a></li>
             
                 <li data-name="R.rPartial"><a href="R.html#rPartial">rPartial</a></li>
+            
+                <li data-name="R.size"><a href="R.html#size">size</a></li>
             
                 <li data-name="R.skip"><a href="R.html#skip">skip</a></li>
             
@@ -319,6 +347,8 @@
                 <li data-name="R.subtractN"><a href="R.html#subtractN">subtractN</a></li>
             
                 <li data-name="R.sum"><a href="R.html#sum">sum</a></li>
+            
+                <li data-name="R.tail"><a href="R.html#tail">tail</a></li>
             
                 <li data-name="R.take"><a href="R.html#take">take</a></li>
             
@@ -1086,6 +1116,7 @@
      *        (`value`, `index`, `list`).
      * @param {Array} list The list to iterate over.
      * @return {Array} The original list.
+     * @alias forEach.idx
      * @example
      *
      *      // Note that having access to the original `list` allows for
@@ -1164,15 +1195,20 @@
      * @param {*} el The item to add to the head of the output list.
      * @param {Array} arr The array to add to the tail of the output list.
      * @return {Array} A new array.
-     * @alias cons
      * @example
      *
      *      ramda.prepend('fee', ['fi', 'fo', 'fum']); //=> ['fee', 'fi', 'fo', 'fum']
      */
-    function prepend(el, arr) {
+    R.prepend = function prepend(el, arr) {
         return concat([el], arr);
-    }
-    R.prepend = prepend;
+    };
+
+    /**
+     * @func
+     * @memberOf R
+     * @category Array
+     * @see R.prepend
+     */
     R.cons = R.prepend;
 
 
@@ -1185,16 +1221,21 @@
      * @category Array
      * @param {Array} [arr=[]] The array to consider.
      * @return {*} The first element of the list, or `undefined` if the list is empty.
-     * @alias car
      * @example
      *
      *      ramda.head(['fi', 'fo', 'fum']); //=> 'fi'
      */
-    var head = R.head = function _car(arr) {
+    var head = R.head = function head(arr) {
         arr = arr || [];
         return arr[0];
     };
 
+    /**
+     * @func
+     * @memberOf R
+     * @category Array
+     * @see R.head
+     */
     R.car = R.head;
 
 
@@ -1226,7 +1267,6 @@
      * @param {Array} [arr=[]] The array to consider.
      * @return {Array} A new array containing all but the first element of the input list, or an
      *         empty list if the input list is a falsy value (e.g. `undefined`).
-     * @alias cdr
      * @example
      *
      *      ramda.tail(['fi', 'fo', 'fum']); //=> ['fo', 'fum']
@@ -1236,6 +1276,12 @@
         return (arr.length > 1) ? _slice(arr, 1) : [];
     });
 
+    /**
+     * @func
+     * @memberOf R
+     * @category Array
+     * @see R.tail
+     */
     R.cdr = R.tail;
 
 
@@ -1275,7 +1321,6 @@
      * @param {Array} list The list whose contents will be added to the beginning of the output
      *        list.
      * @return {Array} A new list containing the contents of the old list followed by `el`.
-     * @alias push
      * @example
      *
      *      ramda.append('tests', ['write', 'more']); //=> ['write', 'more', 'tests']
@@ -1286,6 +1331,12 @@
         return concat(list, [el]);
     };
 
+    /**
+     * @func
+     * @memberOf R
+     * @category Array
+     * @see R.append
+     */
     R.push = R.append;
 
 
@@ -1330,7 +1381,6 @@
      * @category Core
      * @param {*} x The value to return.
      * @return {*} The input value, `x`.
-     * @alias I
      * @example
      *
      *      ramda.identity(1); //=> 1
@@ -1341,6 +1391,13 @@
     var identity = R.identity = function _I(x) {
         return x;
     };
+
+    /**
+     * @func
+     * @memberOf R
+     * @category Core
+     * @see R.identity
+     */
     R.I = R.identity;
 
 
@@ -1869,7 +1926,6 @@
      * @param {*} acc The accumulator value.
      * @param {Array} list The list to iterate over.
      * @return {*} The final, accumulated value.
-     * @alias foldl
      * @example
      *
      *      var numbers = [1, 2, 3];
@@ -1879,7 +1935,7 @@
      *
      *      reduce(numbers, add, 10); //=> 16
      */
-    var foldl = R.reduce =  curry3(checkForMethod('reduce', function _reduce(fn, acc, list) {
+    R.reduce = curry3(checkForMethod('reduce', function _reduce(fn, acc, list) {
         var idx = -1, len = list.length;
         while (++idx &lt; len) {
             acc = fn(acc, list[idx]);
@@ -1887,7 +1943,13 @@
         return acc;
     }));
 
-    R.foldl = R.reduce;
+    /**
+     * @func
+     * @memberOf R
+     * @category List
+     * @see R.reduce
+     */
+    var foldl = R.foldl = R.reduce;
 
 
     /**
@@ -1908,6 +1970,7 @@
      * @param {*} acc The accumulator value.
      * @param {Array} list The list to iterate over.
      * @return {*} The final, accumulated value.
+     * @alias reduce.idx
      * @example
      *
      *      var letters = ['a', 'b', 'c'];
@@ -1947,7 +2010,6 @@
      * @param {*} acc The accumulator value.
      * @param {Array} list The list to iterate over.
      * @return {*} The final, accumulated value.
-     * @alias foldr
      * @example
      *
      *      var pairs = [ ['a', 1], ['b', 2], ['c', 3] ];
@@ -1957,7 +2019,7 @@
      *
      *      reduceRight(numbers, flattenPairs, []); //=> [ 'c', 3, 'b', 2, 'a', 1 ]
      */
-    var foldr = R.reduceRight = curry3(checkForMethod('reduceRight', function _reduceRight(fn, acc, list) {
+    R.reduceRight = curry3(checkForMethod('reduceRight', function _reduceRight(fn, acc, list) {
         var idx = list.length;
         while (idx--) {
             acc = fn(acc, list[idx]);
@@ -1965,7 +2027,13 @@
         return acc;
     }));
 
-    R.foldr = R.reduceRight;
+    /**
+     * @func
+     * @memberOf R
+     * @category List
+     * @see R.reduceRight
+     */
+    var foldr = R.foldr = R.reduceRight;
 
 
     /**
@@ -1987,6 +2055,7 @@
      * @param {*} acc The accumulator value.
      * @param {Array} list The list to iterate over.
      * @return {*} The final, accumulated value.
+     * @alias reduceRight.idx
      * @example
      *
      *      var letters = ['a', 'b', 'c'];
@@ -2085,6 +2154,7 @@
      * @param {Function} fn The function to be called on every element of the input `list`.
      * @param {Array} list The list to be iterated over.
      * @return {Array} The new list.
+     * @alias map.idx
      * @example
      *
      *      var squareEnds = function(elt, idx, list) {
@@ -2149,6 +2219,7 @@
      * @param {Object} obj The object to iterate over.
      * @return {Object} A new object with the same keys as `obj` and values that are the result
      *         of running each property through `fn`.
+     * @alias mapObj.idx
      * @example
      *
      *      var values = { x: 1, y: 2, z: 3 };
@@ -2259,7 +2330,6 @@
      * @category List
      * @param {Array} arr The array to inspect.
      * @return {number} The size of the array.
-     * @alias length
      * @example
      *
      *      ramda.size([]); //=> 0
@@ -2268,6 +2338,13 @@
     R.size = function _size(arr) {
         return arr.length;
     };
+
+    /**
+     * @func
+     * @memberOf R
+     * @category List
+     * @see R.size
+     */
     R.length = R.size;
 
 
@@ -2315,6 +2392,7 @@
      * @param {Function} fn The function called per iteration.
      * @param {Array} list The collection to iterate over.
      * @return {Array} The new filtered array.
+     * @alias filter.idx
      * @example
      *
      *      var lastTwo = function(val, idx, list) {
@@ -2367,6 +2445,7 @@
      * @param {Function} fn The function called per iteration.
      * @param {Array} list The collection to iterate over.
      * @return {Array} The new filtered array.
+     * @alias reject.idx
      * @example
      *
      *      var lastTwo = function(val, idx, list) {
@@ -3507,7 +3586,6 @@
      * @param {String} p The property name
      * @param {Object} obj The object to query
      * @return {*} The value at obj.p
-     * @alias get
      * @example
      *
      *      prop('x', {x: 100}) // => 100
@@ -3525,6 +3603,12 @@
         return obj[p];
     };
 
+    /**
+     * @func
+     * @memberOf R
+     * @category Object
+     * @see R.prop
+     */
     R.get = R.prop;
 
 
@@ -5404,7 +5488,7 @@
         
 
         <footer>
-            Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.2</a> on Sat Aug 30 2014 22:02:54 GMT+0300 (EEST)
+            Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.2</a> on Sun Aug 31 2014 01:07:41 GMT+0300 (EEST)
         </footer>
     </div>
 </div>

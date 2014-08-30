@@ -80,6 +80,8 @@
             
                 <li data-name="R.ap"><a href="R.html#ap">ap</a></li>
             
+                <li data-name="R.append"><a href="R.html#append">append</a></li>
+            
                 <li data-name="R.arity"><a href="R.html#arity">arity</a></li>
             
                 <li data-name="R.binary"><a href="R.html#binary">binary</a></li>
@@ -134,7 +136,7 @@
             
                 <li data-name="R.filter"><a href="R.html#filter">filter</a></li>
             
-                <li data-name="R.filterIdx"><a href="R.html#filterIdx">filterIdx</a></li>
+                <li data-name="R.filter.idx"><a href="R.html#filter.idx">filter.idx</a></li>
             
                 <li data-name="R.find"><a href="R.html#find">find</a></li>
             
@@ -154,6 +156,8 @@
             
                 <li data-name="R.forEach"><a href="R.html#forEach">forEach</a></li>
             
+                <li data-name="R.forEach.idx"><a href="R.html#forEach.idx">forEach.idx</a></li>
+            
                 <li data-name="R.fork"><a href="R.html#fork">fork</a></li>
             
                 <li data-name="R.fromPairs"><a href="R.html#fromPairs">fromPairs</a></li>
@@ -172,7 +176,11 @@
             
                 <li data-name="R.gte"><a href="R.html#gte">gte</a></li>
             
+                <li data-name="R.head"><a href="R.html#head">head</a></li>
+            
                 <li data-name="R.I"><a href="R.html#I">I</a></li>
+            
+                <li data-name="R.identity"><a href="R.html#identity">identity</a></li>
             
                 <li data-name="R.indexOf"><a href="R.html#indexOf">indexOf</a></li>
             
@@ -214,7 +222,11 @@
             
                 <li data-name="R.map"><a href="R.html#map">map</a></li>
             
+                <li data-name="R.map.idx"><a href="R.html#map.idx">map.idx</a></li>
+            
                 <li data-name="R.mapObj"><a href="R.html#mapObj">mapObj</a></li>
+            
+                <li data-name="R.mapObj.idx"><a href="R.html#mapObj.idx">mapObj.idx</a></li>
             
                 <li data-name="R.match"><a href="R.html#match">match</a></li>
             
@@ -266,9 +278,13 @@
             
                 <li data-name="R.pluck"><a href="R.html#pluck">pluck</a></li>
             
+                <li data-name="R.prepend"><a href="R.html#prepend">prepend</a></li>
+            
                 <li data-name="R.product"><a href="R.html#product">product</a></li>
             
                 <li data-name="R.project"><a href="R.html#project">project</a></li>
+            
+                <li data-name="R.prop"><a href="R.html#prop">prop</a></li>
             
                 <li data-name="R.propEq"><a href="R.html#propEq">propEq</a></li>
             
@@ -280,7 +296,17 @@
             
                 <li data-name="R.range"><a href="R.html#range">range</a></li>
             
+                <li data-name="R.reduce"><a href="R.html#reduce">reduce</a></li>
+            
+                <li data-name="R.reduce.idx"><a href="R.html#reduce.idx">reduce.idx</a></li>
+            
+                <li data-name="R.reduceRight"><a href="R.html#reduceRight">reduceRight</a></li>
+            
+                <li data-name="R.reduceRight.idx"><a href="R.html#reduceRight.idx">reduceRight.idx</a></li>
+            
                 <li data-name="R.reject"><a href="R.html#reject">reject</a></li>
+            
+                <li data-name="R.reject.idx"><a href="R.html#reject.idx">reject.idx</a></li>
             
                 <li data-name="R.remove"><a href="R.html#remove">remove</a></li>
             
@@ -289,6 +315,8 @@
                 <li data-name="R.reverse"><a href="R.html#reverse">reverse</a></li>
             
                 <li data-name="R.rPartial"><a href="R.html#rPartial">rPartial</a></li>
+            
+                <li data-name="R.size"><a href="R.html#size">size</a></li>
             
                 <li data-name="R.skip"><a href="R.html#skip">skip</a></li>
             
@@ -319,6 +347,8 @@
                 <li data-name="R.subtractN"><a href="R.html#subtractN">subtractN</a></li>
             
                 <li data-name="R.sum"><a href="R.html#sum">sum</a></li>
+            
+                <li data-name="R.tail"><a href="R.html#tail">tail</a></li>
             
                 <li data-name="R.take"><a href="R.html#take">take</a></li>
             
@@ -458,7 +488,7 @@
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3977">line 3977</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4031">line 4031</a>
         </div>
         
     </div>
@@ -627,7 +657,7 @@ result of <code>a + b</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3927">line 3927</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3981">line 3981</a>
         </div>
         
     </div>
@@ -792,7 +822,7 @@ function that applies its arguments to each of
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3236">line 3236</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3290">line 3290</a>
         </div>
         
     </div>
@@ -930,7 +960,7 @@ Function :: * -&gt; val
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3784">line 3784</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3838">line 3838</a>
         </div>
         
     </div>
@@ -1023,7 +1053,7 @@ Function :: * -&gt; val
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3799">line 3799</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3853">line 3853</a>
         </div>
         
     </div>
@@ -1116,7 +1146,7 @@ Function :: * -&gt; val
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3769">line 3769</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3823">line 3823</a>
         </div>
         
     </div>
@@ -1214,7 +1244,7 @@ zero.</li>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3831">line 3831</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3885">line 3885</a>
         </div>
         
     </div>
@@ -1380,7 +1410,7 @@ function that applies its arguments to <code>f</code> and <code>g</code> and AND
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3259">line 3259</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3313">line 3313</a>
         </div>
         
     </div>
@@ -1517,7 +1547,7 @@ Returns true if it finds one, false otherwise.</p>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3949">line 3949</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4003">line 4003</a>
         </div>
         
     </div>
@@ -1683,7 +1713,7 @@ function that applies its arguments to each of the predicates, returning
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1794">line 1794</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1835">line 1835</a>
         </div>
         
     </div>
@@ -1827,6 +1857,170 @@ value of applying each the function <code>fns</code> to each value in <code>vs</
 
     
     <pre class="prettyprint"><code> R.ap([R.multiply(2), R.add(3), [1,2,3]); //=&gt; [2, 4, 6, 4, 5, 6]</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="append">
+            
+            R.append<span class="signature">(el, list)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Array}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line912">line 912</a>
+        </div>
+        
+    </div>
+
+    
+    <pre>append :: * -> Array -> Array</pre>
+    
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Returns a new list containing the contents of the given list, followed by the given
+element.</p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>el</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">*</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The element to add to the end of the new list.</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>list</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The list whose contents will be added to the beginning of the output
+       list.</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+<h5>Returns:</h5>
+new list containing the contents of the old list followed by <code>el</code>.
+<br />
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code> ramda.append('tests', ['write', 'more']); //=&gt; ['write', 'more', 'tests']
+ ramda.append('tests', []); //=&gt; ['tests']
+ ramda.append(['tests'], ['write', 'more']); //=&gt; ['write', 'more', ['tests']]</code></pre>
     
 
     
@@ -2158,18 +2352,16 @@ new function wrapping <code>fn</code>. The new function is guaranteed to be of
     <div class="nameContainer">
         <h4 class="name" id="car">
             
-            R.car<span class="signature">(<span class="optional">arr</span>)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{*}</span>
+            R.car<span class="signature">()</span>
         </h4>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line805">line 805</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line821">line 821</a>
         </div>
         
     </div>
 
-    
-    <pre>car :: Array -> *</pre>
     
 
     
@@ -2177,76 +2369,11 @@ new function wrapping <code>fn</code>. The new function is guaranteed to be of
 <dd>
     
     
-    <div class="description">
-        <p>Returns the first element in a list.
-In some libraries this function is named <code>first</code>.</p>
-    </div>
-    
 
     
     
     
     
-    
-        
-
-<table class="params">
-    <thead>
-	<tr>
-		
-		<th>Name</th>
-		
-		
-		<th>Type</th>
-		
-		
-		<th>Default</th>
-		
-		
-		<th class="last">Description</th>
-	</tr>
-	</thead>
-	
-	<tbody>
-	
-	
-        <tr>
-            
-                <td class="name"><code>arr</code></td>
-            
-            
-            <td class="type">
-            
-                
-<span class="param-type">Array</span>
-
-
-            
-            </td>
-            
-            
-                <td class="default">
-                
-                    []
-                
-                </td>
-            
-            
-            <td class="description last">
-                
-                    
-                        <span class="optional">optional</span>
-                    
-                    
-                        
-                    
-                
-                <p>The array to consider.</p></td>
-        </tr>
-	
-	
-	</tbody>
-</table>
     
     
     
@@ -2270,6 +2397,13 @@ In some libraries this function is named <code>first</code>.</p>
     
     
     
+    <dt class="tag-see">See:</dt>
+    <dd class="tag-see">
+        <ul>
+            <li><a href="R.html#head">R.head</a></li>
+        </ul>
+    </dd>
+    
     
     
 </dl>
@@ -2285,23 +2419,6 @@ In some libraries this function is named <code>first</code>.</p>
     
     
     
-    
-
-
-<h5>Returns:</h5>
-first element of the list, or <code>undefined</code> if the list is empty.
-<br />
-
-    
-    
-    
-        <h5>Example</h5>
-        
-
-    
-    <pre class="prettyprint"><code> ramda.head(['fi', 'fo', 'fum']); //=&gt; 'fi'</code></pre>
-    
-
     
 </dd>
 
@@ -2311,18 +2428,16 @@ first element of the list, or <code>undefined</code> if the list is empty.
     <div class="nameContainer">
         <h4 class="name" id="cdr">
             
-            R.cdr<span class="signature">(<span class="optional">arr</span>)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Array}</span>
+            R.cdr<span class="signature">()</span>
         </h4>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line846">line 846</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line867">line 867</a>
         </div>
         
     </div>
 
-    
-    <pre>cdr :: Array -> Array</pre>
     
 
     
@@ -2330,76 +2445,11 @@ first element of the list, or <code>undefined</code> if the list is empty.
 <dd>
     
     
-    <div class="description">
-        <p>Returns all but the first element of a list. If the list provided has the <code>tail</code> method,
-it will instead return <code>list.tail()</code>.</p>
-    </div>
-    
 
     
     
     
     
-    
-        
-
-<table class="params">
-    <thead>
-	<tr>
-		
-		<th>Name</th>
-		
-		
-		<th>Type</th>
-		
-		
-		<th>Default</th>
-		
-		
-		<th class="last">Description</th>
-	</tr>
-	</thead>
-	
-	<tbody>
-	
-	
-        <tr>
-            
-                <td class="name"><code>arr</code></td>
-            
-            
-            <td class="type">
-            
-                
-<span class="param-type">Array</span>
-
-
-            
-            </td>
-            
-            
-                <td class="default">
-                
-                    []
-                
-                </td>
-            
-            
-            <td class="description last">
-                
-                    
-                        <span class="optional">optional</span>
-                    
-                    
-                        
-                    
-                
-                <p>The array to consider.</p></td>
-        </tr>
-	
-	
-	</tbody>
-</table>
     
     
     
@@ -2423,6 +2473,13 @@ it will instead return <code>list.tail()</code>.</p>
     
     
     
+    <dt class="tag-see">See:</dt>
+    <dd class="tag-see">
+        <ul>
+            <li><a href="R.html#tail">R.tail</a></li>
+        </ul>
+    </dd>
+    
     
     
 </dl>
@@ -2438,24 +2495,6 @@ it will instead return <code>list.tail()</code>.</p>
     
     
     
-    
-
-
-<h5>Returns:</h5>
-new array containing all but the first element of the input list, or an
-        empty list if the input list is a falsy value (e.g. <code>undefined</code>).
-<br />
-
-    
-    
-    
-        <h5>Example</h5>
-        
-
-    
-    <pre class="prettyprint"><code> ramda.tail(['fi', 'fo', 'fum']); //=&gt; ['fo', 'fum']</code></pre>
-    
-
     
 </dd>
 
@@ -2470,7 +2509,7 @@ new array containing all but the first element of the input list, or an
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1861">line 1861</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1902">line 1902</a>
         </div>
         
     </div>
@@ -2626,7 +2665,7 @@ R.chain(duplicate, [1, 2, 3]); // =&gt; [1, 1, 2, 2, 3, 3]</p></code></pre>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4454">line 4454</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4508">line 4508</a>
         </div>
         
     </div>
@@ -2793,7 +2832,7 @@ character at <code>index</code> of <code>str</code>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4472">line 4472</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4526">line 4526</a>
         </div>
         
     </div>
@@ -2961,7 +3000,7 @@ code of the character at <code>index</code> of <code>str</code>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line738">line 738</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line739">line 739</a>
         </div>
         
     </div>
@@ -3105,7 +3144,7 @@ new copy of the original list.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2976">line 2976</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3025">line 3025</a>
         </div>
         
     </div>
@@ -3245,7 +3284,7 @@ Function :: a -&gt; b -&gt; Int that returns <code>-1</code> if a &lt; b, <code>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1100">line 1100</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1127">line 1127</a>
         </div>
         
     </div>
@@ -3402,7 +3441,7 @@ new function which represents the result of calling each of the
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line923">line 923</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line944">line 944</a>
         </div>
         
     </div>
@@ -3563,18 +3602,16 @@ new array consisting of the contents of <code>list1</code> followed by the
     <div class="nameContainer">
         <h4 class="name" id="cons">
             
-            R.cons<span class="signature">(el, arr)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Array}</span>
+            R.cons<span class="signature">()</span>
         </h4>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line784">line 784</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line794">line 794</a>
         </div>
         
     </div>
 
-    
-    <pre>cons :: * -> Array -> Array</pre>
     
 
     
@@ -3582,84 +3619,11 @@ new array consisting of the contents of <code>list1</code> followed by the
 <dd>
     
     
-    <div class="description">
-        <p>Returns a new list with the given element at the front, followed by the contents of the
-list.</p>
-    </div>
-    
 
     
     
     
     
-    
-        
-
-<table class="params">
-    <thead>
-	<tr>
-		
-		<th>Name</th>
-		
-		
-		<th>Type</th>
-		
-		
-		
-		<th class="last">Description</th>
-	</tr>
-	</thead>
-	
-	<tbody>
-	
-	
-        <tr>
-            
-                <td class="name"><code>el</code></td>
-            
-            
-            <td class="type">
-            
-                
-<span class="param-type">*</span>
-
-
-            
-            </td>
-            
-            
-            
-            <td class="description last">
-                
-                <p>The item to add to the head of the output list.</p></td>
-        </tr>
-	
-	
-	
-        <tr>
-            
-                <td class="name"><code>arr</code></td>
-            
-            
-            <td class="type">
-            
-                
-<span class="param-type">Array</span>
-
-
-            
-            </td>
-            
-            
-            
-            <td class="description last">
-                
-                <p>The array to add to the tail of the output list.</p></td>
-        </tr>
-	
-	
-	</tbody>
-</table>
     
     
     
@@ -3683,6 +3647,13 @@ list.</p>
     
     
     
+    <dt class="tag-see">See:</dt>
+    <dd class="tag-see">
+        <ul>
+            <li><a href="R.html#prepend">R.prepend</a></li>
+        </ul>
+    </dd>
+    
     
     
 </dl>
@@ -3699,23 +3670,6 @@ list.</p>
     
     
     
-
-
-<h5>Returns:</h5>
-new array.
-<br />
-
-    
-    
-    
-        <h5>Example</h5>
-        
-
-    
-    <pre class="prettyprint"><code> ramda.prepend('fee', ['fi', 'fo', 'fum']); //=&gt; ['fee', 'fi', 'fo', 'fum']</code></pre>
-    
-
-    
 </dd>
 
         
@@ -3729,7 +3683,7 @@ new array.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1398">line 1398</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1425">line 1425</a>
         </div>
         
     </div>
@@ -3875,7 +3829,7 @@ wrapped, curried constructor function.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1364">line 1364</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1391">line 1391</a>
         </div>
         
     </div>
@@ -4046,7 +4000,7 @@ wrapped, curried constructor function.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2422">line 2422</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2471">line 2471</a>
         </div>
         
     </div>
@@ -4211,7 +4165,7 @@ if the item is in the list, <code>false</code> otherwise.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2441">line 2441</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2490">line 2490</a>
         </div>
         
     </div>
@@ -4382,7 +4336,7 @@ if <code>x</code> is in <code>list</code>, else <code>false</code>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4951">line 4951</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line5005">line 5005</a>
         </div>
         
     </div>
@@ -4744,7 +4698,7 @@ new, curried function.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4752">line 4752</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4806">line 4806</a>
         </div>
         
     </div>
@@ -4912,7 +4866,7 @@ elements in <code>list1</code> that are not in <code>list2</code>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4779">line 4779</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4833">line 4833</a>
         </div>
         
     </div>
@@ -5108,7 +5062,7 @@ first and second lists concatenated, with
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4065">line 4065</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4119">line 4119</a>
         </div>
         
     </div>
@@ -5279,7 +5233,7 @@ result of <code>a / b</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4086">line 4086</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4140">line 4140</a>
         </div>
         
     </div>
@@ -5450,7 +5404,7 @@ result of <code>b / a</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1836">line 1836</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1877">line 1877</a>
         </div>
         
     </div>
@@ -5541,7 +5495,7 @@ empty array
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3108">line 3108</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3157">line 3157</a>
         </div>
         
     </div>
@@ -5702,7 +5656,7 @@ non-coercing equality for primitives.</p>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3617">line 3617</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3671">line 3671</a>
         </div>
         
     </div>
@@ -5884,7 +5838,7 @@ non-coercing equality for primitives.</p>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2214">line 2214</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2263">line 2263</a>
         </div>
         
     </div>
@@ -6050,7 +6004,7 @@ if the predicate is satisfied by every element, <code>false</code>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1907">line 1907</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1954">line 1954</a>
         </div>
         
     </div>
@@ -6210,20 +6164,20 @@ new filtered array.
             
 <dt>
     <div class="nameContainer">
-        <h4 class="name" id="filterIdx">
+        <h4 class="name" id="filter.idx">
             
-            R.filterIdx<span class="signature">(fn, list)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Array}</span>
+            R.filter.idx<span class="signature">(fn, list)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Array}</span>
         </h4>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1937">line 1937</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1985">line 1985</a>
         </div>
         
     </div>
 
     
-    <pre>filterIdx :: function -> Array -> Array</pre>
+    <pre>filter.idx :: function -> Array -> Array</pre>
     
 
     
@@ -6381,7 +6335,7 @@ new filtered array.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2100">line 2100</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2149">line 2149</a>
         </div>
         
     </div>
@@ -6545,7 +6499,7 @@ element found, or <code>undefined</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2128">line 2128</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2177">line 2177</a>
         </div>
         
     </div>
@@ -6709,7 +6663,7 @@ index of the element found, or <code>-1</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2157">line 2157</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2206">line 2206</a>
         </div>
         
     </div>
@@ -6873,7 +6827,7 @@ element found, or <code>undefined</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2184">line 2184</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2233">line 2233</a>
         </div>
         
     </div>
@@ -7037,7 +6991,7 @@ index of the element found, or <code>-1</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2602">line 2602</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2651">line 2651</a>
         </div>
         
     </div>
@@ -7176,7 +7130,7 @@ flattened list.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1164">line 1164</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1191">line 1191</a>
         </div>
         
     </div>
@@ -7316,18 +7270,16 @@ result of invoking <code>fn</code> with its first two parameters' order reversed
     <div class="nameContainer">
         <h4 class="name" id="foldl">
             
-            R.foldl<span class="signature">(fn, acc, list)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{*}</span>
+            R.foldl<span class="signature">()</span>
         </h4>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1494">line 1494</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1534">line 1534</a>
         </div>
         
     </div>
 
-    
-    <pre>foldl :: function -> * -> Array -> *</pre>
     
 
     
@@ -7335,113 +7287,11 @@ result of invoking <code>fn</code> with its first two parameters' order reversed
 <dd>
     
     
-    <div class="description">
-        <p>Returns a single item by iterating through the list, successively calling the iterator
-function and passing it an accumulator value and the current value from the array, and
-then passing the result to the next call.</p>
-<p>The iterator function receives two values: <em>(acc, value)</em></p>
-<p>Note: <code>ramda.reduce</code> does not skip deleted or unassigned indices (sparse arrays), unlike
-the native <code>Array.prototype.reduce</code> method. For more details on this behavior, see:
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce#Description">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce#Description</a></p>
-    </div>
-    
 
     
     
     
     
-    
-        
-
-<table class="params">
-    <thead>
-	<tr>
-		
-		<th>Name</th>
-		
-		
-		<th>Type</th>
-		
-		
-		
-		<th class="last">Description</th>
-	</tr>
-	</thead>
-	
-	<tbody>
-	
-	
-        <tr>
-            
-                <td class="name"><code>fn</code></td>
-            
-            
-            <td class="type">
-            
-                
-<span class="param-type">function</span>
-
-
-            
-            </td>
-            
-            
-            
-            <td class="description last">
-                
-                <p>The iterator function. Receives two values, the accumulator and the
-       current element from the array.</p></td>
-        </tr>
-	
-	
-	
-        <tr>
-            
-                <td class="name"><code>acc</code></td>
-            
-            
-            <td class="type">
-            
-                
-<span class="param-type">*</span>
-
-
-            
-            </td>
-            
-            
-            
-            <td class="description last">
-                
-                <p>The accumulator value.</p></td>
-        </tr>
-	
-	
-	
-        <tr>
-            
-                <td class="name"><code>list</code></td>
-            
-            
-            <td class="type">
-            
-                
-<span class="param-type">Array</span>
-
-
-            
-            </td>
-            
-            
-            
-            <td class="description last">
-                
-                <p>The list to iterate over.</p></td>
-        </tr>
-	
-	
-	</tbody>
-</table>
     
     
     
@@ -7465,6 +7315,13 @@ the native <code>Array.prototype.reduce</code> method. For more details on this 
     
     
     
+    <dt class="tag-see">See:</dt>
+    <dd class="tag-see">
+        <ul>
+            <li><a href="R.html#reduce">R.reduce</a></li>
+        </ul>
+    </dd>
+    
     
     
 </dl>
@@ -7480,28 +7337,6 @@ the native <code>Array.prototype.reduce</code> method. For more details on this 
     
     
     
-    
-
-
-<h5>Returns:</h5>
-final, accumulated value.
-<br />
-
-    
-    
-    
-        <h5>Example</h5>
-        
-
-    
-    <pre class="prettyprint"><code> var numbers = [1, 2, 3];
- var add = function(a, b) {
-   return a + b;
- };
-
- reduce(numbers, add, 10); //=&gt; 16</code></pre>
-    
-
     
 </dd>
 
@@ -7511,18 +7346,16 @@ final, accumulated value.
     <div class="nameContainer">
         <h4 class="name" id="foldr">
             
-            R.foldr<span class="signature">(fn, acc, list)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{*}</span>
+            R.foldr<span class="signature">()</span>
         </h4>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1572">line 1572</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1618">line 1618</a>
         </div>
         
     </div>
 
-    
-    <pre>foldr :: function -> * -> Array -> *</pre>
     
 
     
@@ -7530,114 +7363,11 @@ final, accumulated value.
 <dd>
     
     
-    <div class="description">
-        <p>Returns a single item by iterating through the list, successively calling the iterator
-function and passing it an accumulator value and the current value from the array, and
-then passing the result to the next call.</p>
-<p>Similar to <code>reduce</code>, except moves through the input list from the right to the left.</p>
-<p>The iterator function receives two values: <em>(acc, value)</em></p>
-<p>Note: <code>ramda.reduce</code> does not skip deleted or unassigned indices (sparse arrays), unlike
-the native <code>Array.prototype.reduce</code> method. For more details on this behavior, see:
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce#Description">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce#Description</a></p>
-    </div>
-    
 
     
     
     
     
-    
-        
-
-<table class="params">
-    <thead>
-	<tr>
-		
-		<th>Name</th>
-		
-		
-		<th>Type</th>
-		
-		
-		
-		<th class="last">Description</th>
-	</tr>
-	</thead>
-	
-	<tbody>
-	
-	
-        <tr>
-            
-                <td class="name"><code>fn</code></td>
-            
-            
-            <td class="type">
-            
-                
-<span class="param-type">function</span>
-
-
-            
-            </td>
-            
-            
-            
-            <td class="description last">
-                
-                <p>The iterator function. Receives two values, the accumulator and the
-       current element from the array.</p></td>
-        </tr>
-	
-	
-	
-        <tr>
-            
-                <td class="name"><code>acc</code></td>
-            
-            
-            <td class="type">
-            
-                
-<span class="param-type">*</span>
-
-
-            
-            </td>
-            
-            
-            
-            <td class="description last">
-                
-                <p>The accumulator value.</p></td>
-        </tr>
-	
-	
-	
-        <tr>
-            
-                <td class="name"><code>list</code></td>
-            
-            
-            <td class="type">
-            
-                
-<span class="param-type">Array</span>
-
-
-            
-            </td>
-            
-            
-            
-            <td class="description last">
-                
-                <p>The list to iterate over.</p></td>
-        </tr>
-	
-	
-	</tbody>
-</table>
     
     
     
@@ -7661,6 +7391,13 @@ the native <code>Array.prototype.reduce</code> method. For more details on this 
     
     
     
+    <dt class="tag-see">See:</dt>
+    <dd class="tag-see">
+        <ul>
+            <li><a href="R.html#reduceRight">R.reduceRight</a></li>
+        </ul>
+    </dd>
+    
     
     
 </dl>
@@ -7676,28 +7413,6 @@ the native <code>Array.prototype.reduce</code> method. For more details on this 
     
     
     
-    
-
-
-<h5>Returns:</h5>
-final, accumulated value.
-<br />
-
-    
-    
-    
-        <h5>Example</h5>
-        
-
-    
-    <pre class="prettyprint"><code> var pairs = [ ['a', 1], ['b', 2], ['c', 3] ];
- var flattenPairs = function(acc, pair) {
-   return acc.concat(pair);
- };
-
- reduceRight(numbers, flattenPairs, []); //=&gt; [ 'c', 3, 'b', 2, 'a', 1 ]</code></pre>
-    
-
     
 </dd>
 
@@ -7877,6 +7592,178 @@ original list.
             
 <dt>
     <div class="nameContainer">
+        <h4 class="name" id="forEach.idx">
+            
+            R.forEach.idx<span class="signature">(fn, list)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Array}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line710">line 710</a>
+        </div>
+        
+    </div>
+
+    
+    <pre>forEach.idx :: function -> Array -> Array</pre>
+    
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Like <code>forEach</code>, but but passes additional parameters to the predicate function.</p>
+<p><code>fn</code> receives three arguments: <em>(value, index, list)</em>.</p>
+<p>Note: <code>ramda.forEach.idx</code> does not skip deleted or unassigned indices (sparse arrays),
+unlike the native <code>Array.prototype.forEach</code> method. For more details on this behavior,
+see:
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach#Description">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach#Description</a></p>
+<p>Also note that, unlike <code>Array.prototype.forEach</code>, Ramda's <code>forEach</code> returns the original
+array. In some libraries this function is named <code>each</code>.</p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>fn</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The function to invoke. Receives three arguments:
+       (<code>value</code>, <code>index</code>, <code>list</code>).</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>list</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The list to iterate over.</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+<h5>Returns:</h5>
+original list.
+<br />
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code> // Note that having access to the original `list` allows for
+ // mutation. While you *can* do this, it's very un-functional behavior:
+ ramda.forEach.idx(function(num, idx, list) {
+   list[idx] = num + 100;
+ }, [1, 2, 3]); //=&gt; [101, 102, 103]</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
         <h4 class="name" id="fork">
             
             R.fork<span class="signature">(after, fn1, fn2)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{function}</span>
@@ -7884,7 +7771,7 @@ original list.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1437">line 1437</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1464">line 1464</a>
         </div>
         
     </div>
@@ -8083,7 +7970,7 @@ new function.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2710">line 2710</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2759">line 2759</a>
         </div>
         
     </div>
@@ -8221,7 +8108,7 @@ object made by pairing up <code>keys</code> and <code>values</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3214">line 3214</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3268">line 3268</a>
         </div>
         
     </div>
@@ -8386,7 +8273,7 @@ value of invoking <code>obj.fn</code>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4985">line 4985</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line5039">line 5039</a>
         </div>
         
     </div>
@@ -8524,7 +8411,7 @@ list of object's own function names
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line5001">line 5001</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line5055">line 5055</a>
         </div>
         
     </div>
@@ -8657,18 +8544,16 @@ list of object's own and prototype function names
     <div class="nameContainer">
         <h4 class="name" id="get">
             
-            R.get<span class="signature">(p, obj)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{*}</span>
+            R.get<span class="signature">()</span>
         </h4>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3132">line 3132</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3194">line 3194</a>
         </div>
         
     </div>
 
-    
-    <pre>get :: String -> Object -> *</pre>
     
 
     
@@ -8676,83 +8561,11 @@ list of object's own and prototype function names
 <dd>
     
     
-    <div class="description">
-        <p>Returns a function that when supplied an object returns the indicated property of that object, if it exists.</p>
-    </div>
-    
 
     
     
     
     
-    
-        
-
-<table class="params">
-    <thead>
-	<tr>
-		
-		<th>Name</th>
-		
-		
-		<th>Type</th>
-		
-		
-		
-		<th class="last">Description</th>
-	</tr>
-	</thead>
-	
-	<tbody>
-	
-	
-        <tr>
-            
-                <td class="name"><code>p</code></td>
-            
-            
-            <td class="type">
-            
-                
-<span class="param-type">String</span>
-
-
-            
-            </td>
-            
-            
-            
-            <td class="description last">
-                
-                <p>The property name</p></td>
-        </tr>
-	
-	
-	
-        <tr>
-            
-                <td class="name"><code>obj</code></td>
-            
-            
-            <td class="type">
-            
-                
-<span class="param-type">Object</span>
-
-
-            
-            </td>
-            
-            
-            
-            <td class="description last">
-                
-                <p>The object to query</p></td>
-        </tr>
-	
-	
-	</tbody>
-</table>
     
     
     
@@ -8776,6 +8589,13 @@ list of object's own and prototype function names
     
     
     
+    <dt class="tag-see">See:</dt>
+    <dd class="tag-see">
+        <ul>
+            <li><a href="R.html#prop">R.prop</a></li>
+        </ul>
+    </dd>
+    
     
     
 </dl>
@@ -8792,28 +8612,6 @@ list of object's own and prototype function names
     
     
     
-
-
-<h5>Returns:</h5>
-value at obj.p
-<br />
-
-    
-    
-    
-        <h5>Example</h5>
-        
-
-    
-    <pre class="prettyprint"><code> prop('x', {x: 100}) // =&gt; 100
- prop('x', {}) // =&gt; undefined
-
- var fifth = prop(4); // indexed from 0, remember
- fifth(['Bashful', 'Doc', 'Dopey', 'Grumpy', 'Happy', 'Sleepy', 'Sneezy']);
- //=&gt; 'Happy'</code></pre>
-    
-
-    
 </dd>
 
         
@@ -8827,7 +8625,7 @@ value at obj.p
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3030">line 3030</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3079">line 3079</a>
         </div>
         
     </div>
@@ -9004,7 +8802,7 @@ byGrade(students);
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4258">line 4258</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4312">line 4312</a>
         </div>
         
     </div>
@@ -9166,7 +8964,7 @@ byGrade(students);
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4276">line 4276</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4330">line 4330</a>
         </div>
         
     </div>
@@ -9321,20 +9119,249 @@ byGrade(students);
             
 <dt>
     <div class="nameContainer">
-        <h4 class="name" id="I">
+        <h4 class="name" id="head">
             
-            R.I<span class="signature">(x)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{*}</span>
+            R.head<span class="signature">(<span class="optional">arr</span>)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{*}</span>
         </h4>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line953">line 953</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line810">line 810</a>
         </div>
         
     </div>
 
     
-    <pre>I :: * -> *</pre>
+    <pre>head :: Array -> *</pre>
+    
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Returns the first element in a list.
+In some libraries this function is named <code>first</code>.</p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		<th>Default</th>
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>arr</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+                <td class="default">
+                
+                    []
+                
+                </td>
+            
+            
+            <td class="description last">
+                
+                    
+                        <span class="optional">optional</span>
+                    
+                    
+                        
+                    
+                
+                <p>The array to consider.</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+<h5>Returns:</h5>
+first element of the list, or <code>undefined</code> if the list is empty.
+<br />
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code> ramda.head(['fi', 'fo', 'fum']); //=&gt; 'fi'</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="I">
+            
+            R.I<span class="signature">()</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line983">line 983</a>
+        </div>
+        
+    </div>
+
+    
+
+    
+</dt>
+<dd>
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dt class="tag-see">See:</dt>
+    <dd class="tag-see">
+        <ul>
+            <li><a href="R.html#identity">R.identity</a></li>
+        </ul>
+    </dd>
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="identity">
+            
+            R.identity<span class="signature">(x)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{*}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line973">line 973</a>
+        </div>
+        
+    </div>
+
+    
+    <pre>identity :: * -> *</pre>
     
 
     
@@ -9469,7 +9496,7 @@ input value, <code>x</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2330">line 2330</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2379">line 2379</a>
         </div>
         
     </div>
@@ -9627,7 +9654,7 @@ index of the target, or -1 if the target is not found.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2935">line 2935</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2984">line 2984</a>
         </div>
         
     </div>
@@ -9807,7 +9834,7 @@ new Array with <code>elt</code> inserted at <code>index</code>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3728">line 3728</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3782">line 3782</a>
         </div>
         
     </div>
@@ -9949,7 +9976,7 @@ reference to the mutated object
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4798">line 4798</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4852">line 4852</a>
         </div>
         
     </div>
@@ -10116,7 +10143,7 @@ list of elements found in both <code>list1</code> and <code>list2</code>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4843">line 4843</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4897">line 4897</a>
         </div>
         
     </div>
@@ -10536,7 +10563,7 @@ new function or <code>undefined</code> if the specified method is not found.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3752">line 3752</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3806">line 3806</a>
         </div>
         
     </div>
@@ -10698,7 +10725,7 @@ This function will check up the inheritance chain, if any.</p>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line874">line 874</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line890">line 890</a>
         </div>
         
     </div>
@@ -10843,7 +10870,7 @@ if <code>x</code> is an atom, and <code>false</code> otherwise.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line763">line 763</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line764">line 764</a>
         </div>
         
     </div>
@@ -10984,7 +11011,7 @@ if the <code>arr</code> argument has a length of 0 or
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2498">line 2498</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2547">line 2547</a>
         </div>
         
     </div>
@@ -11124,7 +11151,7 @@ if all elements are unique, else <code>false</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2857">line 2857</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2906">line 2906</a>
         </div>
         
     </div>
@@ -11290,7 +11317,7 @@ string made by concatenating <code>xs</code> with <code>separator</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3289">line 3289</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3343">line 3343</a>
         </div>
         
     </div>
@@ -11430,7 +11457,7 @@ array of the object's own properties
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3321">line 3321</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3375">line 3375</a>
         </div>
         
     </div>
@@ -11573,7 +11600,7 @@ array of the object's own and prototype properties
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line825">line 825</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line836">line 836</a>
         </div>
         
     </div>
@@ -11725,7 +11752,7 @@ last element of the list, or <code>undefined</code> if the list is empty.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2375">line 2375</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2424">line 2424</a>
         </div>
         
     </div>
@@ -11877,18 +11904,16 @@ index of the target, or -1 if the target is not found.
     <div class="nameContainer">
         <h4 class="name" id="length">
             
-            R.length<span class="signature">(arr)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{number}</span>
+            R.length<span class="signature">()</span>
         </h4>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1880">line 1880</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1930">line 1930</a>
         </div>
         
     </div>
 
-    
-    <pre>length :: Array -> number</pre>
     
 
     
@@ -11896,60 +11921,11 @@ index of the target, or -1 if the target is not found.
 <dd>
     
     
-    <div class="description">
-        <p>Returns the number of elements in the array by returning <code>arr.length</code>.</p>
-    </div>
-    
 
     
     
     
     
-    
-        
-
-<table class="params">
-    <thead>
-	<tr>
-		
-		<th>Name</th>
-		
-		
-		<th>Type</th>
-		
-		
-		
-		<th class="last">Description</th>
-	</tr>
-	</thead>
-	
-	<tbody>
-	
-	
-        <tr>
-            
-                <td class="name"><code>arr</code></td>
-            
-            
-            <td class="type">
-            
-                
-<span class="param-type">Array</span>
-
-
-            
-            </td>
-            
-            
-            
-            <td class="description last">
-                
-                <p>The array to inspect.</p></td>
-        </tr>
-	
-	
-	</tbody>
-</table>
     
     
     
@@ -11973,6 +11949,13 @@ index of the target, or -1 if the target is not found.
     
     
     
+    <dt class="tag-see">See:</dt>
+    <dd class="tag-see">
+        <ul>
+            <li><a href="R.html#size">R.size</a></li>
+        </ul>
+    </dd>
+    
     
     
 </dl>
@@ -11989,24 +11972,6 @@ index of the target, or -1 if the target is not found.
     
     
     
-
-
-<h5>Returns:</h5>
-size of the array.
-<br />
-
-    
-    
-    
-        <h5>Example</h5>
-        
-
-    
-    <pre class="prettyprint"><code> ramda.size([]); //=&gt; 0
- ramda.size([1, 2, 3]); //=&gt; 3</code></pre>
-    
-
-    
 </dd>
 
         
@@ -12020,7 +11985,7 @@ size of the array.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1200">line 1200</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1227">line 1227</a>
         </div>
         
     </div>
@@ -12206,7 +12171,7 @@ new function wrapping <code>fn</code>. When invoked, it will call <code>fn</code
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4222">line 4222</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4276">line 4276</a>
         </div>
         
     </div>
@@ -12368,7 +12333,7 @@ new function wrapping <code>fn</code>. When invoked, it will call <code>fn</code
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4240">line 4240</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4294">line 4294</a>
         </div>
         
     </div>
@@ -12530,7 +12495,7 @@ new function wrapping <code>fn</code>. When invoked, it will call <code>fn</code
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1674">line 1674</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1713">line 1713</a>
         </div>
         
     </div>
@@ -12691,6 +12656,178 @@ new list.
             
 <dt>
     <div class="nameContainer">
+        <h4 class="name" id="map.idx">
+            
+            R.map.idx<span class="signature">(fn, list)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Array}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1752">line 1752</a>
+        </div>
+        
+    </div>
+
+    
+    <pre>map.idx :: function -> Array -> Array</pre>
+    
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Like <code>map</code>, but but passes additional parameters to the predicate function.</p>
+<p><code>fn</code> receives three arguments: <em>(value, index, list)</em>.</p>
+<p>Note: <code>ramda.map.idx</code> does not skip deleted or unassigned indices (sparse arrays), unlike
+the native <code>Array.prototype.map</code> method. For more details on this behavior, see:
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map#Description">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map#Description</a></p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>fn</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The function to be called on every element of the input <code>list</code>.</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>list</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The list to be iterated over.</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+<h5>Returns:</h5>
+new list.
+<br />
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code> var squareEnds = function(elt, idx, list) {
+   if (idx === 0 || idx === list.length - 1) {
+     return elt * elt;
+   }
+   return elt;
+ };
+
+ ramda.map.idx(squareEnds, [8, 6, 7, 5, 3, 0, 9];
+ //=&gt; [64, 6, 7, 5, 3, 0, 81]</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
         <h4 class="name" id="mapObj">
             
             R.mapObj<span class="signature">(fn, obj)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Object}</span>
@@ -12698,7 +12835,7 @@ new list.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1744">line 1744</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1784">line 1784</a>
         </div>
         
     </div>
@@ -12860,6 +12997,174 @@ of running each property through <code>fn</code>.
             
 <dt>
     <div class="nameContainer">
+        <h4 class="name" id="mapObj.idx">
+            
+            R.mapObj.idx<span class="signature">(fn, obj)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Object}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1814">line 1814</a>
+        </div>
+        
+    </div>
+
+    
+    <pre>mapObj.idx :: Array -> Object -> Object</pre>
+    
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Like <code>mapObj</code>, but but passes additional arguments to the predicate function. The
+predicate function is passed three arguments: <em>(value, key, obj)</em>.</p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>fn</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>A function called for each property in <code>obj</code>. Its return value will
+       become a new property on the return object.</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>obj</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The object to iterate over.</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+<h5>Returns:</h5>
+new object with the same keys as <code>obj</code> and values that are the result
+        of running each property through <code>fn</code>.
+<br />
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code> var values = { x: 1, y: 2, z: 3 };
+ var double = function(num, key, obj) {
+   return key + num;
+ };
+
+ ramda.mapObj(double, values); //=&gt; { x: 'x2', y: 'y4', z: 'z6' }</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
         <h4 class="name" id="match">
             
             R.match<span class="signature">(rx, str)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Array}</span>
@@ -12867,7 +13172,7 @@ of running each property through <code>fn</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4489">line 4489</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4543">line 4543</a>
         </div>
         
     </div>
@@ -13034,7 +13339,7 @@ list of matches, or null if no matches found
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4148">line 4148</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4202">line 4202</a>
         </div>
         
     </div>
@@ -13209,7 +13514,7 @@ result of <code>b mod a</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4292">line 4292</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4346">line 4346</a>
         </div>
         
     </div>
@@ -13353,7 +13658,7 @@ greatest number in the list
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4313">line 4313</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4367">line 4367</a>
         </div>
         
     </div>
@@ -13522,7 +13827,7 @@ greatest element in the list. <code>undefined</code> if the list is empty.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1270">line 1270</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1297">line 1297</a>
         </div>
         
     </div>
@@ -13676,7 +13981,7 @@ a memoized version of <code>fn</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4375">line 4375</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4429">line 4429</a>
         </div>
         
     </div>
@@ -13820,7 +14125,7 @@ greatest number in the list
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4346">line 4346</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4400">line 4400</a>
         </div>
         
     </div>
@@ -13989,7 +14294,7 @@ greatest element in the list. <code>undefined</code> if the list is empty.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3594">line 3594</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3648">line 3648</a>
         </div>
         
     </div>
@@ -14152,7 +14457,7 @@ the destination object.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4109">line 4109</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4163">line 4163</a>
         </div>
         
     </div>
@@ -14325,7 +14630,7 @@ result of <code>b % a</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4172">line 4172</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4226">line 4226</a>
         </div>
         
     </div>
@@ -14495,7 +14800,7 @@ result of <code>b mod a</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3997">line 3997</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4051">line 4051</a>
         </div>
         
     </div>
@@ -14830,7 +15135,7 @@ new function wrapping <code>fn</code>. The new function is guaranteed to be of
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3880">line 3880</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3934">line 3934</a>
         </div>
         
     </div>
@@ -14971,7 +15276,7 @@ function that applies its arguments to <code>f</code> and logically inverts its 
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1819">line 1819</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1860">line 1860</a>
         </div>
         
     </div>
@@ -15104,7 +15409,7 @@ Note this <code>of</code> is different from the ES6 <code>of</code>; See
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3491">line 3491</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3545">line 3545</a>
         </div>
         
     </div>
@@ -15264,7 +15569,7 @@ new object with properties from <code>names</code> not on it.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1300">line 1300</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1327">line 1327</a>
         </div>
         
     </div>
@@ -15406,7 +15711,7 @@ wrapped function.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3857">line 3857</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3911">line 3911</a>
         </div>
         
     </div>
@@ -15572,7 +15877,7 @@ function that applies its arguments to <code>f</code> and <code>g</code> and ORs
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3054">line 3054</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3103">line 3103</a>
         </div>
         
     </div>
@@ -15735,7 +16040,7 @@ nested array, containing first an array of elements that satisfied the predicate
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4636">line 4636</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4690">line 4690</a>
         </div>
         
     </div>
@@ -15872,7 +16177,7 @@ data at <code>path</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4619">line 4619</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4673">line 4673</a>
         </div>
         
     </div>
@@ -16033,7 +16338,7 @@ data at <code>path</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3471">line 3471</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3525">line 3525</a>
         </div>
         
     </div>
@@ -16195,7 +16500,7 @@ new object with only properties from <code>names</code> on it.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3550">line 3550</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3604">line 3604</a>
         </div>
         
     </div>
@@ -16363,7 +16668,7 @@ new object with only properties from <code>names</code> on it.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3516">line 3516</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3570">line 3570</a>
         </div>
         
     </div>
@@ -16534,7 +16839,7 @@ new object with only properties that satisfy <code>pred</code>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1139">line 1139</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1166">line 1166</a>
         </div>
         
     </div>
@@ -16690,7 +16995,7 @@ new function which represents the result of calling each of the
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2555">line 2555</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2604">line 2604</a>
         </div>
         
     </div>
@@ -16847,6 +17152,167 @@ pluck(0)([[1, 2], [3, 4]]);   //= [1, 3]</p></code></pre>
             
 <dt>
     <div class="nameContainer">
+        <h4 class="name" id="prepend">
+            
+            R.prepend<span class="signature">(el, arr)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Array}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line784">line 784</a>
+        </div>
+        
+    </div>
+
+    
+    <pre>prepend :: * -> Array -> Array</pre>
+    
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Returns a new list with the given element at the front, followed by the contents of the
+list.</p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>el</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">*</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The item to add to the head of the output list.</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>arr</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The array to add to the tail of the output list.</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+<h5>Returns:</h5>
+new array.
+<br />
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code> ramda.prepend('fee', ['fi', 'fo', 'fum']); //=&gt; ['fee', 'fi', 'fo', 'fum']</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
         <h4 class="name" id="product">
             
             R.product<span class="signature">(list)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{number}</span>
@@ -16854,7 +17320,7 @@ pluck(0)([[1, 2], [3, 4]]);   //= [1, 3]</p></code></pre>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4204">line 4204</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4258">line 4258</a>
         </div>
         
     </div>
@@ -16998,7 +17464,7 @@ product of all the numbers in the list.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4665">line 4665</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4719">line 4719</a>
         </div>
         
     </div>
@@ -17154,6 +17620,171 @@ array of objects with just the <code>props</code> properties.
             
 <dt>
     <div class="nameContainer">
+        <h4 class="name" id="prop">
+            
+            R.prop<span class="signature">(p, obj)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{*}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3180">line 3180</a>
+        </div>
+        
+    </div>
+
+    
+    <pre>prop :: String -> Object -> *</pre>
+    
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Returns a function that when supplied an object returns the indicated property of that object, if it exists.</p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>p</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">String</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The property name</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>obj</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The object to query</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+<h5>Returns:</h5>
+value at obj.p
+<br />
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code> prop('x', {x: 100}) // =&gt; 100
+ prop('x', {}) // =&gt; undefined
+
+ var fifth = prop(4); // indexed from 0, remember
+ fifth(['Bashful', 'Doc', 'Dopey', 'Grumpy', 'Happy', 'Sleepy', 'Sneezy']);
+ //=&gt; 'Happy'</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
         <h4 class="name" id="propEq">
             
             R.propEq<span class="signature">(name, val)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{boolean}</span>
@@ -17161,7 +17792,7 @@ array of objects with just the <code>props</code> properties.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4689">line 4689</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4743">line 4743</a>
         </div>
         
     </div>
@@ -17332,7 +17963,7 @@ if the properties are equal, <code>false</code> otherwise.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3191">line 3191</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3245">line 3245</a>
         </div>
         
     </div>
@@ -17502,7 +18133,7 @@ value of given property or default value.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3158">line 3158</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3212">line 3212</a>
         </div>
         
     </div>
@@ -17665,18 +18296,16 @@ value at obj.p
     <div class="nameContainer">
         <h4 class="name" id="push">
             
-            R.push<span class="signature">(el, list)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Array}</span>
+            R.push<span class="signature">()</span>
         </h4>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line897">line 897</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line922">line 922</a>
         </div>
         
     </div>
 
-    
-    <pre>push :: * -> Array -> Array</pre>
     
 
     
@@ -17684,85 +18313,11 @@ value at obj.p
 <dd>
     
     
-    <div class="description">
-        <p>Returns a new list containing the contents of the given list, followed by the given
-element.</p>
-    </div>
-    
 
     
     
     
     
-    
-        
-
-<table class="params">
-    <thead>
-	<tr>
-		
-		<th>Name</th>
-		
-		
-		<th>Type</th>
-		
-		
-		
-		<th class="last">Description</th>
-	</tr>
-	</thead>
-	
-	<tbody>
-	
-	
-        <tr>
-            
-                <td class="name"><code>el</code></td>
-            
-            
-            <td class="type">
-            
-                
-<span class="param-type">*</span>
-
-
-            
-            </td>
-            
-            
-            
-            <td class="description last">
-                
-                <p>The element to add to the end of the new list.</p></td>
-        </tr>
-	
-	
-	
-        <tr>
-            
-                <td class="name"><code>list</code></td>
-            
-            
-            <td class="type">
-            
-                
-<span class="param-type">Array</span>
-
-
-            
-            </td>
-            
-            
-            
-            <td class="description last">
-                
-                <p>The list whose contents will be added to the beginning of the output
-       list.</p></td>
-        </tr>
-	
-	
-	</tbody>
-</table>
     
     
     
@@ -17786,6 +18341,13 @@ element.</p>
     
     
     
+    <dt class="tag-see">See:</dt>
+    <dd class="tag-see">
+        <ul>
+            <li><a href="R.html#append">R.append</a></li>
+        </ul>
+    </dd>
+    
     
     
 </dl>
@@ -17802,25 +18364,6 @@ element.</p>
     
     
     
-
-
-<h5>Returns:</h5>
-new list containing the contents of the old list followed by <code>el</code>.
-<br />
-
-    
-    
-    
-        <h5>Example</h5>
-        
-
-    
-    <pre class="prettyprint"><code> ramda.append('tests', ['write', 'more']); //=&gt; ['write', 'more', 'tests']
- ramda.append('tests', []); //=&gt; ['tests']
- ramda.append(['tests'], ['write', 'more']); //=&gt; ['write', 'more', ['tests']]</code></pre>
-    
-
-    
 </dd>
 
         
@@ -17834,7 +18377,7 @@ new list containing the contents of the old list followed by <code>el</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2829">line 2829</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2878">line 2878</a>
         </div>
         
     </div>
@@ -17990,6 +18533,786 @@ list of numbers in tthe set <code>[a, b)</code>.
             
 <dt>
     <div class="nameContainer">
+        <h4 class="name" id="reduce">
+            
+            R.reduce<span class="signature">(fn, acc, list)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{*}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1520">line 1520</a>
+        </div>
+        
+    </div>
+
+    
+    <pre>reduce :: function -> * -> Array -> *</pre>
+    
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Returns a single item by iterating through the list, successively calling the iterator
+function and passing it an accumulator value and the current value from the array, and
+then passing the result to the next call.</p>
+<p>The iterator function receives two values: <em>(acc, value)</em></p>
+<p>Note: <code>ramda.reduce</code> does not skip deleted or unassigned indices (sparse arrays), unlike
+the native <code>Array.prototype.reduce</code> method. For more details on this behavior, see:
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce#Description">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce#Description</a></p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>fn</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The iterator function. Receives two values, the accumulator and the
+       current element from the array.</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>acc</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">*</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The accumulator value.</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>list</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The list to iterate over.</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+<h5>Returns:</h5>
+final, accumulated value.
+<br />
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code> var numbers = [1, 2, 3];
+ var add = function(a, b) {
+   return a + b;
+ };
+
+ reduce(numbers, add, 10); //=&gt; 16</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="reduce.idx">
+            
+            R.reduce.idx<span class="signature">(fn, acc, list)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{*}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1565">line 1565</a>
+        </div>
+        
+    </div>
+
+    
+    <pre>reduce.idx :: function -> * -> Array -> *</pre>
+    
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Like <code>reduce</code>, but passes additional parameters to the predicate function.</p>
+<p>The iterator function receives four values: <em>(acc, value, index, list)</em></p>
+<p>Note: <code>ramda.reduce.idx</code> does not skip deleted or unassigned indices (sparse arrays),
+unlike the native <code>Array.prototype.reduce</code> method. For more details on this behavior,
+see:
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce#Description">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce#Description</a></p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>fn</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The iterator function. Receives four values: the accumulator, the
+       current element from <code>list</code>, that element's index, and the entire <code>list</code> itself.</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>acc</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">*</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The accumulator value.</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>list</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The list to iterate over.</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+<h5>Returns:</h5>
+final, accumulated value.
+<br />
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code> var letters = ['a', 'b', 'c'];
+ var objectify = function(accObject, elem, idx, list) {
+   return accObject[elem] = idx;
+ };
+
+ reduce.idx(letters, objectify, {}); //=&gt; { 'a': 0, 'b': 1, 'c': 2 }</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="reduceRight">
+            
+            R.reduceRight<span class="signature">(fn, acc, list)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{*}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1604">line 1604</a>
+        </div>
+        
+    </div>
+
+    
+    <pre>reduceRight :: function -> * -> Array -> *</pre>
+    
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Returns a single item by iterating through the list, successively calling the iterator
+function and passing it an accumulator value and the current value from the array, and
+then passing the result to the next call.</p>
+<p>Similar to <code>reduce</code>, except moves through the input list from the right to the left.</p>
+<p>The iterator function receives two values: <em>(acc, value)</em></p>
+<p>Note: <code>ramda.reduce</code> does not skip deleted or unassigned indices (sparse arrays), unlike
+the native <code>Array.prototype.reduce</code> method. For more details on this behavior, see:
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce#Description">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce#Description</a></p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>fn</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The iterator function. Receives two values, the accumulator and the
+       current element from the array.</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>acc</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">*</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The accumulator value.</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>list</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The list to iterate over.</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+<h5>Returns:</h5>
+final, accumulated value.
+<br />
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code> var pairs = [ ['a', 1], ['b', 2], ['c', 3] ];
+ var flattenPairs = function(acc, pair) {
+   return acc.concat(pair);
+ };
+
+ reduceRight(numbers, flattenPairs, []); //=&gt; [ 'c', 3, 'b', 2, 'a', 1 ]</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="reduceRight.idx">
+            
+            R.reduceRight.idx<span class="signature">(fn, acc, list)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{*}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1650">line 1650</a>
+        </div>
+        
+    </div>
+
+    
+    <pre>reduceRight.idx :: function -> * -> Array -> *</pre>
+    
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Like <code>reduceRight</code>, but passes additional parameters to the predicate function. Moves through
+the input list from the right to the left.</p>
+<p>The iterator function receives four values: <em>(acc, value, index, list)</em>.</p>
+<p>Note: <code>ramda.foldr.idx</code> does not skip deleted or unassigned indices (sparse arrays),
+unlike the native <code>Array.prototype.reduce</code> method. For more details on this behavior,
+see:
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce#Description">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce#Description</a></p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>fn</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The iterator function. Receives four values: the accumulator, the
+       current element from <code>list</code>, that element's index, and the entire <code>list</code> itself.</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>acc</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">*</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The accumulator value.</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>list</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The list to iterate over.</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+<h5>Returns:</h5>
+final, accumulated value.
+<br />
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code> var letters = ['a', 'b', 'c'];
+ var objectify = function(accObject, elem, idx, list) {
+   return accObject[elem] = idx;
+ };
+
+ foldr.idx(letters, objectify, {}); //=&gt; { 'c': 2, 'b': 1, 'a': 0 }</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
         <h4 class="name" id="reject">
             
             R.reject<span class="signature">(fn, list)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Array}</span>
@@ -17997,7 +19320,7 @@ list of numbers in tthe set <code>[a, b)</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1966">line 1966</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2014">line 2014</a>
         </div>
         
     </div>
@@ -18154,6 +19477,171 @@ new filtered array.
             
 <dt>
     <div class="nameContainer">
+        <h4 class="name" id="reject.idx">
+            
+            R.reject.idx<span class="signature">(fn, list)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Array}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2039">line 2039</a>
+        </div>
+        
+    </div>
+
+    
+    <pre>reject.idx :: function -> Array -> Array</pre>
+    
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Like <code>reject</code>, but passes additional parameters to the predicate function. The predicate
+function is passed three arguments: <em>(value, index, list)</em>.</p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>fn</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The function called per iteration.</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>list</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The collection to iterate over.</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+<h5>Returns:</h5>
+new filtered array.
+<br />
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code> var lastTwo = function(val, idx, list) {
+   return list.length - idx &lt;= 2;
+ };
+
+ reject.idx(lastTwo, [8, 6, 7, 5, 3, 0, 9]); //=&gt; [8, 6, 7, 5, 3]</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
         <h4 class="name" id="remove">
             
             R.remove<span class="signature">(start, count, list)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Array}</span>
@@ -18161,7 +19649,7 @@ new filtered array.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2915">line 2915</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2964">line 2964</a>
         </div>
         
     </div>
@@ -18347,7 +19835,7 @@ new Array with <code>count</code> elements from <code>start</code> removed
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1003">line 1003</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1030">line 1030</a>
         </div>
         
     </div>
@@ -18511,7 +19999,7 @@ new array containing <code>n</code> <code>value</code>s.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2808">line 2808</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2857">line 2857</a>
         </div>
         
     </div>
@@ -18652,7 +20140,7 @@ copy of the list in reverse order.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1232">line 1232</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1259">line 1259</a>
         </div>
         
     </div>
@@ -18829,6 +20317,144 @@ new function wrapping <code>fn</code>. When invoked, it will call <code>fn</code
             
 <dt>
     <div class="nameContainer">
+        <h4 class="name" id="size">
+            
+            R.size<span class="signature">(arr)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{number}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1920">line 1920</a>
+        </div>
+        
+    </div>
+
+    
+    <pre>size :: Array -> number</pre>
+    
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Returns the number of elements in the array by returning <code>arr.length</code>.</p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>arr</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                <p>The array to inspect.</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+<h5>Returns:</h5>
+size of the array.
+<br />
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code> ramda.size([]); //=&gt; 0
+ ramda.size([1, 2, 3]); //=&gt; 3</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
         <h4 class="name" id="skip">
             
             R.skip<span class="signature">(n, list)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Array}</span>
@@ -18836,7 +20462,7 @@ new function wrapping <code>fn</code>. When invoked, it will call <code>fn</code
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2078">line 2078</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2127">line 2127</a>
         </div>
         
     </div>
@@ -18996,7 +20622,7 @@ last <code>n</code> elements of <code>list</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2058">line 2058</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2107">line 2107</a>
         </div>
         
     </div>
@@ -19163,7 +20789,7 @@ new array.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2875">line 2875</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2924">line 2924</a>
         </div>
         
     </div>
@@ -19347,7 +20973,7 @@ items from <code>a</code> to <code>b - 1</code> from <code>xs</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2245">line 2245</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2294">line 2294</a>
         </div>
         
     </div>
@@ -19513,7 +21139,7 @@ if the predicate is satisfied by at least one element, <code>false</code>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2997">line 2997</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3046">line 3046</a>
         </div>
         
     </div>
@@ -19675,7 +21301,7 @@ new array with its elements sorted by the comparator function.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4926">line 4926</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4980">line 4980</a>
         </div>
         
     </div>
@@ -19852,7 +21478,7 @@ new list sorted by the keys generated by <code>fn</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4576">line 4576</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4630">line 4630</a>
         </div>
         
     </div>
@@ -20018,7 +21644,7 @@ array of strings from <code>str</code> separated by <code>str</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4506">line 4506</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4560">line 4560</a>
         </div>
         
     </div>
@@ -20185,7 +21811,7 @@ first index of <code>c</code> or -1 if not found
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4524">line 4524</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4578">line 4578</a>
         </div>
         
     </div>
@@ -20352,7 +21978,7 @@ last index of <code>c</code> or -1 if not found
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4403">line 4403</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4457">line 4457</a>
         </div>
         
     </div>
@@ -20542,7 +22168,7 @@ extracted substring
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4420">line 4420</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4474">line 4474</a>
         </div>
         
     </div>
@@ -20709,7 +22335,7 @@ extracted substring
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4437">line 4437</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4491">line 4491</a>
         </div>
         
     </div>
@@ -20876,7 +22502,7 @@ extracted substring
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4020">line 4020</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4074">line 4074</a>
         </div>
         
     </div>
@@ -21049,7 +22675,7 @@ result of <code>a - b</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4044">line 4044</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4098">line 4098</a>
         </div>
         
     </div>
@@ -21217,7 +22843,7 @@ result of <code>a - b</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4188">line 4188</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4242">line 4242</a>
         </div>
         
     </div>
@@ -21354,6 +22980,160 @@ sum of all the numbers in the list.
             
 <dt>
     <div class="nameContainer">
+        <h4 class="name" id="tail">
+            
+            R.tail<span class="signature">(<span class="optional">arr</span>)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Array}</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line856">line 856</a>
+        </div>
+        
+    </div>
+
+    
+    <pre>tail :: Array -> Array</pre>
+    
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        <p>Returns all but the first element of a list. If the list provided has the <code>tail</code> method,
+it will instead return <code>list.tail()</code>.</p>
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		<th>Default</th>
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>arr</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+            
+            
+                <td class="default">
+                
+                    []
+                
+                </td>
+            
+            
+            <td class="description last">
+                
+                    
+                        <span class="optional">optional</span>
+                    
+                    
+                        
+                    
+                
+                <p>The array to consider.</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+<h5>Returns:</h5>
+new array containing all but the first element of the input list, or an
+        empty list if the input list is a falsy value (e.g. <code>undefined</code>).
+<br />
+
+    
+    
+    
+        <h5>Example</h5>
+        
+
+    
+    <pre class="prettyprint"><code> ramda.tail(['fi', 'fo', 'fum']); //=&gt; ['fo', 'fum']</code></pre>
+    
+
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
         <h4 class="name" id="take">
             
             R.take<span class="signature">(n, list)</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{Array}</span>
@@ -21361,7 +23141,7 @@ sum of all the numbers in the list.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2033">line 2033</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2082">line 2082</a>
         </div>
         
     </div>
@@ -21514,7 +23294,7 @@ new array containing the first elements of <code>list</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2015">line 2015</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2064">line 2064</a>
         </div>
         
     </div>
@@ -21681,7 +23461,7 @@ new array.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3085">line 3085</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3134">line 3134</a>
         </div>
         
     </div>
@@ -21837,7 +23617,7 @@ new array.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line976">line 976</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1003">line 1003</a>
         </div>
         
     </div>
@@ -22000,7 +23780,7 @@ array containing the return values of all calls to <code>fn</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4554">line 4554</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4608">line 4608</a>
         </div>
         
     </div>
@@ -22137,7 +23917,7 @@ lower case version of <code>str</code>.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3358">line 3358</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3412">line 3412</a>
         </div>
         
     </div>
@@ -22277,7 +24057,7 @@ array of key, value arrays from the object's own properties
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3380">line 3380</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3434">line 3434</a>
         </div>
         
     </div>
@@ -22421,7 +24201,7 @@ array of key, value arrays from the object's own
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4539">line 4539</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4593">line 4593</a>
         </div>
         
     </div>
@@ -22706,7 +24486,7 @@ new function wrapping <code>fn</code>. The new function is guaranteed to be of
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1641">line 1641</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1680">line 1680</a>
         </div>
         
     </div>
@@ -22873,7 +24653,7 @@ final list.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4709">line 4709</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4763">line 4763</a>
         </div>
         
     </div>
@@ -23035,7 +24815,7 @@ duplicates removed.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4732">line 4732</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line4786">line 4786</a>
         </div>
         
     </div>
@@ -23230,7 +25010,7 @@ first and second lists concatenated, with
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2470">line 2470</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2519">line 2519</a>
         </div>
         
     </div>
@@ -23371,7 +25151,7 @@ list of unique items.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2528">line 2528</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2577">line 2577</a>
         </div>
         
     </div>
@@ -23514,7 +25294,7 @@ uniqWith(strEq)(['1', 1, 1]);    //= ['1']</p></code></pre>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2619">line 2619</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2668">line 2668</a>
         </div>
         
     </div>
@@ -23860,7 +25640,7 @@ wrapped function.
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3397">line 3397</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3451">line 3451</a>
         </div>
         
     </div>
@@ -23999,7 +25779,7 @@ array of the values of the object's own properties
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3426">line 3426</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3480">line 3480</a>
         </div>
         
     </div>
@@ -24142,7 +25922,7 @@ array of the values of the object's own and prototype properties
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3687">line 3687</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line3741">line 3741</a>
         </div>
         
     </div>
@@ -24313,7 +26093,7 @@ the test object's value for the property in question, as well as the whole test 
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1332">line 1332</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line1359">line 1359</a>
         </div>
         
     </div>
@@ -24478,7 +26258,7 @@ slashify('a/') //= 'a/'</p>
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2772">line 2772</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2821">line 2821</a>
         </div>
         
     </div>
@@ -24641,7 +26421,7 @@ list made by combining each possible pair from
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2739">line 2739</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2788">line 2788</a>
         </div>
         
     </div>
@@ -24834,7 +26614,7 @@ list made by combining each possible pair from
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2663">line 2663</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2712">line 2712</a>
         </div>
         
     </div>
@@ -24996,7 +26776,7 @@ list made by pairing up same-indexed elements of <code>list1</code> and <code>li
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2688">line 2688</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2737">line 2737</a>
         </div>
         
     </div>
@@ -25157,7 +26937,7 @@ object made by pairing up same-indexed elements of <code>keys</code> and <code>v
     
         
         <div class="tag-source">
-            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2639">line 2639</a>
+            <a href="ramda.js.html">ramda.js</a>, <a href="ramda.js.html#line2688">line 2688</a>
         </div>
         
     </div>
@@ -25349,7 +27129,7 @@ using <code>fn</code>.
         
 
         <footer>
-            Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.2</a> on Sat Aug 30 2014 22:02:54 GMT+0300 (EEST)
+            Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.2</a> on Sun Aug 31 2014 01:07:41 GMT+0300 (EEST)
         </footer>
     </div>
 </div>
