@@ -73,6 +73,16 @@ module.exports = function (grunt) {
                     template: './',
                     'private': false
                 }
+            },
+            ramda: {
+                src: ['../ramda/ramda.js', '../ramda/README.md'],
+                options: {
+                    verbose: true,
+                    destination: DEMO_PATH,
+                    configure: 'conf.json',
+                    template: './',
+                    'private': false
+                }
             }
         },
 

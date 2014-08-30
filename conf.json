@@ -1,4 +1,5 @@
 {
+  "source": "../ramda/ramda.js",
 	"tags": {
 		"allowUnknownTags" : true
 	},
