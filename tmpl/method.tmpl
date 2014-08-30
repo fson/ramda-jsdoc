@@ -18,6 +18,10 @@ var self = this;
         <?js } ?>
     </div>
 
+    <?js if (data.typeSignature) { ?>
+    <pre><?js= data.typeSignature ?></pre>
+    <?js } ?>
+
     <?js if (data.summary) { ?>
     <p class="summary"><?js= summary ?></p>
     <?js } ?>
